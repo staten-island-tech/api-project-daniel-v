@@ -1,5 +1,6 @@
 $font-main: "Asap", sans-serif;
 $font-second: "Josefin Slab", serif;
+
 html,
 body {
   box-sizing: border-box;
@@ -11,5 +12,15 @@ body {
   font-weight: 500;
 }
 body {
-  background-color: #111;
+  background-color: darkgray;
+}
+
+.submitbutton, .form, .lyrics{
+  display:grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.submitbutton{
+  margin:auto;
 }
