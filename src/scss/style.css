@@ -1,0 +1,31 @@
+html,
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-size: 62.5%;
+  color: white;
+  font-family: "Josefin Slab", serif;
+  font-weight: 500;
+}
+
+body {
+  background-color: darkgray;
+}
+
+.submitbutton, .form, .lyrics {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.submitbutton {
+  margin: auto;
+}
+/*# sourceMappingURL=style.css.map */

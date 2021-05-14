@@ -1,4 +1,12 @@
-import { DOMSelectors } from "./DOM";
-import { genres } from "./genre";
+console.log("connected");
 
-const key = "YOURKEYHERE";
+async function getapi() {
+    
+    var response = await fetch('https://api.lyrics.ovh/v1/' + document.getElementById("artist").value +"/" + document.getElementById("title").value);
+    
+    var data = await response.json();
+    console.log(data);
+    if (response) {
+        document.getElementById("results").innerHTML = data.lyrics;
+    }
+}
