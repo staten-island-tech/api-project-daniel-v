@@ -1,5 +1,7 @@
 console.log("connected");
 
+document.getElementById("button").addEventListener("click", getapi);
+
 async function getapi() {
 
     if(document.getElementById("artist").value != "" && document.getElementById("title").value != "")
